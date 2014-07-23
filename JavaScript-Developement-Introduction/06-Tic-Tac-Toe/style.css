@@ -1,0 +1,14 @@
+.container {width: 330px;}
+
+.box {width: 100px; height: 100px; background: url(figures.png) 0 0 no-repeat; float: left; border: 15px solid #000;}
+.active:hover {cursor: pointer;}
+.x {background-position: 0 0; background-color: red;}
+.o {background-position: 0 100%; background-color: blue}
+.winning {background-color: chartreuse;}
+
+.box:nth-child(1), .box:nth-child(3), .box:nth-child(4), .box:nth-child(6) {border-right: none; border-top: none; border-left: none;}
+.box:nth-child(2), .box:nth-child(5) {border-top: none;}
+.box:nth-child(7), .box:nth-child(9) {border: none;}
+.box:nth-child(8) {border-bottom: none; border-top: none;}
+
+.reload {width: 30%; height: 10%; background-color: tomato; border: 10px solid #666; position: absolute; left: 35%; top: 20%; text-align: center; font-family: 'Tahoma', sans-serif; text-transform: uppercase; font-weight: bold; color: #fff; font-size: 40px; line-height: 85px; cursor: pointer; display: none;}
